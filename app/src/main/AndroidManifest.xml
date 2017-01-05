@@ -18,6 +18,7 @@
                 <action android:name="android.intent.action.EDIT"></action>
             </intent-filter>
         </activity>
+        <service android:name=".Services"   ></service>
     </application>
 
 </manifest>

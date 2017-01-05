@@ -9,8 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.soltec.serviciotecnico.PrincipalActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+   <Button
+       android:id="@+id/btnInicio"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:onClick="ComenzarServicio"
+       android:text="Iniciar"
+       />
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/str_name" />
+        android:onClick="Pararservicio"
+android:layout_below="@+id/btnInicio"
+        android:text="Parar"/>
+
 </RelativeLayout>
